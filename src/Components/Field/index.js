@@ -7,7 +7,7 @@ function Field({
   const filedId = `id_${name}`;
   return (
     <div>
-      <label 
+      <label
         htmlFor={filedId}
       >
         {label}

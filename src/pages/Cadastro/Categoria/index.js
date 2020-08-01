@@ -55,7 +55,7 @@ function CadastroCategoria() {
       </h1>
 
       <form onSubmit={handleSubmit}>
-        <Field name="nome" type="text" label="Nome" value={values.titulo} onChange={handleChange} />
+        <Field name="titulo" type="text" label="Nome" value={values.titulo} onChange={handleChange} />
         <Field name="descricao" type="text" label="Descrição" value={values.descricao} onChange={(handleChange)} />
         <Field name="cor" type="color" label="Cor" value={values.cor} onChange={handleChange} />
 
